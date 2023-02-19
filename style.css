@@ -1,0 +1,21 @@
+.center{
+    display: grid;
+    justify-content: center;
+    /*  */
+    justify-items: center;/* by default start */
+}
+.msg-color{
+    margin-top: 30px;
+    font-size: 15px;
+    color: red;
+}
+.word-class{
+    color: green;
+}
+#btn-play-again{
+    margin-top: 15px;
+    
+}
+#seconds{
+    color:green
+}
