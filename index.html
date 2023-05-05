@@ -13,41 +13,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="center">
-      <h1><span class="badge bg-primary">Speed Typing </span></h1>
+    <div class="App">
+      <div class="center">
+        <h1><span class="badge bg-primary">Speed Typing </span></h1>
 
-      <div>
-        <span>Type the given word </span>
-      </div>
-
-      <h2 id="current-word" class="word-class">hello</h2>
-
-      <h5 id="msg" class="msg-color"></h5>
-
-      <input id="input" type="text" autofocus placeholder="start typing" />
-
-      <div>Time Left : <span id="seconds"> 5 </span></div>
-      <div>
-        <span>Score</span> <span id="scoreId">0</span> <span>High Score</span>
-        <span id="highScore">0</span>
-      </div>
-
-      <!-- <button id="btn-play-again" class="badge bg-primary "> Play Again </button> -->
-    </div>
-    <!-- <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Rules of the game
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
+        <div>
+          <p>Type the given word</p>
         </div>
-      </div> -->
+
+        <h2 id="current-word" class="word-class">hello</h2>
+
+        <h5 id="msg" class="msg-color"></h5>
+
+        <input id="input" type="text" autofocus placeholder="Type Here " />
+
+        <div>Time Left : <span id="seconds"> 5 </span></div>
+        <div>
+          <span>Score</span> <span id="scoreId">0</span> <span>High Score</span>
+          <span id="highScore">0</span>
+        </div>
+
+        <!-- <button id="btn-play-again" class="badge bg-primary "> Play Again </button> -->
+      </div>
+    </div>
+
     <script src="index.js"></script>
   </body>
 </html>

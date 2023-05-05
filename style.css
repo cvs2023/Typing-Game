@@ -1,21 +1,40 @@
-.center{
-    display: grid;
-    justify-content: center;
-    /*  */
-    justify-items: center;/* by default start */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
 }
-.msg-color{
-    margin-top: 30px;
-    font-size: 15px;
-    color: red;
+.center {
+  display: flex;
+  width: 330px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+  padding: 3rem;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 2px 2px rgb(40, 109, 14);
 }
-.word-class{
-    color: green;
+h1 {
+  margin-bottom: 2rem;
 }
-#btn-play-again{
-    margin-top: 15px;
-    
+input {
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 2rem;
+  outline: none;
 }
-#seconds{
-    color:green
+.msg-color {
+  height: 50px;
+  font-size: 15px;
+  color: red;
+}
+.word-class {
+  color: green;
+}
+#btn-play-again {
+  margin-top: 15px;
+}
+#seconds {
+  color: green;
 }
